@@ -1,0 +1,137 @@
+#main-nav{
+	border-bottom: 3px solid;
+	border-color: rgb(165,54,3);
+	opacity: 0.8;
+}
+body { 
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden !important;
+    margin: 0;
+} 
+#heads{
+ background: url(../img/wallpaper.jpg);
+  background-attachment: fixed;
+  margin-bottom: 0px;
+
+}
+#styleimg{
+  clip: rect(0px,300px,300px,0px);
+}
+
+#showcase {
+  background: url(../img/wallpaper.jpg);
+  background-attachment: fixed;
+  min-height: 650px;
+  margin-bottom: 0px;
+}
+.primary-overlay {
+    background: rgb(244, 122, 66,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+.text-orange{
+	color: rgb(165,54,3);
+}
+#aboutcq{
+	width: 50%;
+	margin:auto;
+}
+
+.bg-orange{
+	background-color: rgb(165,54,3);
+}
+ 
+ .bg-grey{
+ 	background-color: #626770;
+ } 
+ .bg-black{
+ 	background-color: #000000;
+ }   
+
+#heads img {
+  margin-top: -50px; }
+#heads .card:hover {
+  background: rgb(165,54,3);
+  color: #fff;
+   }
+   #contact .card:hover {
+  background: #fff;
+  color: rgb(165,54,3);}
+
+#heads .fab {
+ 	color: rgb(165,54,3);
+  	background-color: #fff;
+  	border-radius: 10px;
+  	padding: 8px; }
+
+  #heads .fab:hover{
+  color: blue; }
+
+  #style{
+  	color: rgb(165,54,3);
+  	background-color: #fff;
+  	border-radius: 10px;
+  	padding: 8px; 
+
+  }
+  #styleinv{
+  	color: #fff;
+  	background-color: rgb(165,54,3);
+  	border-radius: 10px;
+  	padding: 8px; 
+  }
+
+  #styleinv:hover{
+  	color: rgb(165,54,3);
+  	background-color: #fff;
+  	border-radius: 10px;
+  	padding: 8px;
+  }
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    .primary-overlay{
+    	height: 500px;
+    }
+    #showcase h1 {
+      font-size: 3.5rem; }
+   .px-resp{
+  	padding-left: 2rem;
+  	padding-right: 2rem;
+  }
+  .pb-resp{
+    padding-bottom: 0px !important;
+  }
+  }
+
+  @media (max-width: 400px) {
+  #showcase {
+    min-height: 500px; }
+    .primary-overlay{
+      height: 500px;
+    }
+    #showcase h1 {
+      font-size: 3rem; }
+   .px-resp{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  }
+
+  .pb-resp{
+    padding-bottom: 30px;
+  }
+  
+html{
+	overflow-x: hidden !important;
+    margin: 0;
+
+}
+.active {
+  border-bottom: 2px solid rgb(165,54,3) !important;
+}
